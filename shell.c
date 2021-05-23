@@ -57,5 +57,12 @@ int main(void)
             }
         } 
     }
+    if (strcmp(args[0], "exit") == 0) {
+        printf("ByeBye\n");
+
+        working_dir = "/path/to/wherever";
+
+        exit(0);
+    }
     return 0;
 }
